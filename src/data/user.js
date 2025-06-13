@@ -44,7 +44,7 @@ const INFO = {
 				"Paper Title: Mitigating Cross-Modal Distraction and Ensuring Geometric Feasibility via Affordance-Guided, Self-Consistent MLLMs for Food Preparation Task Planning",
 			logo: `${process.env.PUBLIC_URL}/robot.png`,
 			linkText: "View Research Page",
-			link: "https://github.com/HCIS-Lab/Affordance-Guided-Self-Consistent-MLLM",
+			link: "https://hcis-lab.github.io/Affordance-Guided-Self-Consistent-MLLM/",
 		},
 
 		{
