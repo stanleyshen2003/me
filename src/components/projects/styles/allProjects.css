@@ -15,6 +15,16 @@
 	overflow: hidden;
 }
 
+.projects-subtitle {
+    width: 100% !important;
+    text-align: justify;
+}
+
+.projects-title {
+    width: 100% !important;
+    text-align: justify;
+}
+
 @media (max-width: 600px) {
 	.all-projects-project {
 		width: calc(100% / 2);
