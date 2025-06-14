@@ -46,7 +46,7 @@ function article_2() {
 		title: "Artificial Intelligence in Healthcare",
 		description:
 			"AI is transforming the healthcare industry, from improving patient outcomes to streamlining operations. Discover the latest applications of this game-changing technology.",
-		type: "Friends",
+		type: "School",
 		style: ``,
 		keywords: [
 			"Artificial Intelligence in Healthcare",

@@ -53,8 +53,7 @@
 	}
 
 	.category-button {
-		flex: 1 1 calc(50% - 20px); /* two per row on small screens */
-		text-align: center;
+		font-size: smaller;
 	}
 }
 
@@ -66,7 +65,7 @@
 }
 
 .category-button {
-	flex: 1 0 calc(100% / 7); /* exactly 1/7 width */
+	flex: 1 0 calc(100% / 6);
 	padding: 10px;
 	text-align: center;
 	border: 4px solid #f6f6f6;
