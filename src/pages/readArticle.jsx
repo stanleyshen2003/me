@@ -42,7 +42,7 @@ const ReadArticle = () => {
 				<div className="content-wrapper">
 					<div className="read-article-logo-container">
 						<div className="read-article-logo">
-							<Logo width={46} />
+							<Logo width={40} />
 						</div>
 					</div>
 
