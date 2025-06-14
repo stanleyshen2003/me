@@ -12,6 +12,7 @@ function article_1() {
 			"Tharindu N",
 			"Tharindu Nayanajith",
 		],
+		type: "Family",
 		style: `
 				.article-content {
 					display: flex;
@@ -45,6 +46,7 @@ function article_2() {
 		title: "Artificial Intelligence in Healthcare",
 		description:
 			"AI is transforming the healthcare industry, from improving patient outcomes to streamlining operations. Discover the latest applications of this game-changing technology.",
+		type: "Friends",
 		style: ``,
 		keywords: [
 			"Artificial Intelligence in Healthcare",

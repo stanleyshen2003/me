@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import { Helmet } from "react-helmet";
 
 import NavBar from "../components/common/navBar";
@@ -18,6 +18,9 @@ const Articles = () => {
 	}, []);
 
 	const currentSEO = SEO.find((item) => item.page === "articles");
+	const [selectedCategory, setSelectedCategory] = useState("All");
+
+	const categories = ["All", "Family", "Friends", "Work", "Travel", "Hobbies", "Other"];
 
 	return (
 		<React.Fragment>
@@ -48,22 +51,38 @@ const Articles = () => {
 							{INFO.articles.description}
 						</div>
 
+						<div class="category-row">
+							{categories.map((category) => (
+								<button
+									key={category}
+									className={`category-button ${selectedCategory === category ? "selected" : ""}`}
+									onClick={() => setSelectedCategory(category)}
+								>
+									{category}
+								</button>
+							))}
+						</div>
+
 						<div className="articles-container">
 							<div className="articles-wrapper">
-								{myArticles.map((article, index) => (
-									<div
-										className="articles-article"
-										key={(index + 1).toString()}
-									>
-										<Article
+								{myArticles
+									.filter((article) =>
+										selectedCategory === "All" || article().type === selectedCategory
+									)
+									.map((article, index) => (
+										<div
+											className="articles-article"
 											key={(index + 1).toString()}
-											date={article().date}
-											title={article().title}
-											description={article().description}
-											link={"/article/" + (index + 1)}
-										/>
-									</div>
-								))}
+										>
+											<Article
+												date={article().date}
+												title={article().title}
+												description={article().description}
+												link={"/article/" + (index + 1)}
+											/>
+										</div>
+									))
+								}
 							</div>
 						</div>
 					</div>
