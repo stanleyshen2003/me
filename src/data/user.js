@@ -1,6 +1,6 @@
 const INFO = {
 	main: {
-		title: "page of Stanley Shen",
+		title: "Stanley Shen",
 		name: "Stanley Shen",
 		email: "stanley.shen2003@gmail.com",
 		logo: `${process.env.PUBLIC_URL}/logo.png`,
@@ -26,9 +26,9 @@ const INFO = {
             "I'm a disciplined and determined person with a deep passion for computer science. I rank among the top 7% when I graduated from NYCU CS, with a cumulative GPA of 4.19. My academic interests include AI (Robotics / RL / DL / CV / NLP), computer netwrok, system, computation theory. My previous research focuses on language-guided robotic manipulation with Multimodal LLM, advised by Professor Yi-Ting Chen in Human-centered Intelligent Systems Lab. The research page can be found in the project list. I am currently a master student in NYCU CS. My recent research is related to ORAN, advised by Professor Chien-Chao Tseng in Wireless Internet Lab\n\nI’ve always enjoyed working on collaborative projects where ideas flow, people support each other, and the team grows together. My long-term involvement in orchestra and swimming since childhood has also shaped my teamwork, discipline, and perseverance—values I carry into every challenge I take on. I'm also fluent in English, having scored 965 on the TOEIC listening and reading test.",
 	},
 	articles: {
-		title: "I'm passionate about pushing the boundaries of what's possible and inspiring the next generation of innovators.",
+		title: "Thoughts Compiled",
 		description:
-			"Chronological collection of my long-form thoughts on programming, leadership, product design, and more.",
+			"中文murmur區.",
 	},
 
 	pj: {
