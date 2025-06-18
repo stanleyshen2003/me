@@ -20,7 +20,7 @@ const Articles = () => {
 	const currentSEO = SEO.find((item) => item.page === "articles");
 	const [selectedCategory, setSelectedCategory] = useState("All");
 
-	const categories = ["All", "Family", "School", "Work", "Other"];
+	const categories = ["All", "Family", "School", "Work", "Others"];
 
 	return (
 		<React.Fragment>

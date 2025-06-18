@@ -28,7 +28,7 @@ const INFO = {
 	articles: {
 		title: "Thoughts Compiled",
 		description:
-			"中文murmur區.",
+			"中英夾雜區",
 	},
 
 	pj: {

@@ -34,6 +34,7 @@ const notion_styles = {
     lineHeight: 1.2,
     fontWeight: 600,
     marginBottom: 0,
+    color: '#27272a',
   },
   '.page-title': {
     fontSize: '2.5rem',
@@ -42,16 +43,16 @@ const notion_styles = {
     marginBottom: '0.75em',
   },
   h1: {
+    fontSize: '2.15rem',
+    marginTop: '2.15rem',
+  },
+  h2: {
     fontSize: '1.875rem',
     marginTop: '1.875rem',
   },
-  h2: {
+  h3: {
     fontSize: '1.5rem',
     marginTop: '1.5rem',
-  },
-  h3: {
-    fontSize: '1.25rem',
-    marginTop: '1.25rem',
   },
   '.source': {
     border: '1px solid #ddd',
