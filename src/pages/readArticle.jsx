@@ -10,7 +10,9 @@ import Logo from "../components/common/logo";
 import INFO from "../data/user";
 import myArticles from "../data/articles";
 
+// import "./styles/notion.css"
 import "./styles/readArticle.css";
+
 
 let ArticleStyle = styled.div``;
 

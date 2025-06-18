@@ -11,6 +11,7 @@
 .article-left-side {
 	min-width: 20%;
 	max-width: 20%;
+	padding-left: 35px;
 }
 
 .article-right-side {
