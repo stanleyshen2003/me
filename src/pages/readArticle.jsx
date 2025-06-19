@@ -54,7 +54,7 @@ const ReadArticle = () => {
 								src={`${process.env.PUBLIC_URL}/back-button.png`}
 								alt="back"
 								className="read-article-back-button"
-								onClick={() => navigate(-1)}
+								onClick={() => navigate(`/articles`)}
 							/>
 						</div>
 

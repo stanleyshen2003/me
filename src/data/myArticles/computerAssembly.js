@@ -22,6 +22,21 @@ function computerAssembly() {
 					<div class="page-body">
 						<p id="216b7849-9a0a-800e-8399-e22863ee9aaf" class="">這算是我第一次組電腦，其實一開始本來是打算組一個 server 等級的，但最後想一想感覺之後高機率會直接在實驗室 server 跑，再加上錢是老闆出的，所以就買了這樣。買的元件基本上參考學長之前買的，稍微升級了 CPU, cooler, case。</p>
 						<p id="216b7849-9a0a-8057-9c7b-e81e3913de71" class="">元件要買哪些&amp;價格可以參考<a href="https://www.coolpc.com.tw/evaluate.php">原價屋線上估價</a></p>
+						<p id="217b7849-9a0a-80a8-a243-c3fb84ac090a" class=""></p>
+						<h1>Table of contents</h1>
+						<p/>
+						<nav id="217b7849-9a0a-80f9-af34-f4000f0f3718" class="block-color-gray table_of_contents">
+							<div class="table_of_contents-item table_of_contents-indent-0"><a class="table_of_contents-link" href="#216b7849-9a0a-8016-a324-d925ad6ea358"><strong>Components</strong></a></div>
+							<div class="table_of_contents-item table_of_contents-indent-1"><a class="table_of_contents-link" href="#216b7849-9a0a-80b8-ae7e-f264539a5891"><strong>CPU</strong></a></div>
+							<div class="table_of_contents-item table_of_contents-indent-1"><a class="table_of_contents-link" href="#216b7849-9a0a-8054-a046-e90f3a5d58e0"><strong>Motherboard</strong></a></div>
+							<div class="table_of_contents-item table_of_contents-indent-1"><a class="table_of_contents-link" href="#216b7849-9a0a-8010-a63e-e070553c3ed6"><strong>Memory</strong></a></div>
+							<div class="table_of_contents-item table_of_contents-indent-1"><a class="table_of_contents-link" href="#216b7849-9a0a-80a8-aa0c-eeaf1ed6c1ac"><strong>Disk</strong></a></div>
+							<div class="table_of_contents-item table_of_contents-indent-1"><a class="table_of_contents-link" href="#216b7849-9a0a-80cc-8dc0-f216e6f87796"><strong>Cooler</strong></a></div>
+							<div class="table_of_contents-item table_of_contents-indent-1"><a class="table_of_contents-link" href="#216b7849-9a0a-8066-bc0d-e97ccab3be64"><strong>Case &amp; Power</strong></a></div>
+							<div class="table_of_contents-item table_of_contents-indent-0"><a class="table_of_contents-link" href="#216b7849-9a0a-80e7-9422-dfdf5139909e">成品</a></div>
+							<div class="table_of_contents-item table_of_contents-indent-0"><a class="table_of_contents-link" href="#216b7849-9a0a-800c-bdfb-ce33f8f2597b">心得</a></div>
+							<div class="table_of_contents-item table_of_contents-indent-0"><a class="table_of_contents-link" href="#216b7849-9a0a-8008-a8c5-e9300962f592">後記</a></div>
+						</nav>
 						<h2 id="216b7849-9a0a-8016-a324-d925ad6ea358" class=""><strong>Components</strong></h2>
 						<p id="216b7849-9a0a-80a6-80f9-f59f28bc64b3" class="">以下是我買的元件，總計 $33210</p>
 						<h3 id="216b7849-9a0a-80b8-ae7e-f264539a5891" class=""><strong>CPU</strong></h3>
