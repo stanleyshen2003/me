@@ -56,6 +56,14 @@
 	padding-left: 10%;
 }
 
+@media (max-width: 800px) {
+	.read-article-wrapper {
+		padding-left: 15%;
+		padding-right: 5%;
+	}
+	
+}
+
 .read-article-date-container {
 	border-left: 2px solid var(--quaternary-color);
 	color: var(--tertiary-color);
