@@ -17,7 +17,7 @@ const INFO = {
 	homepage: {
 		title: "A dedicated learner exploring the wonders of Computer Science",
 		description:
-			"I am Yu-Hong Shen, characterized by a conscientious, disciplined, and resolutely studious nature. I graduate from B.S. NYCU CS in 2025, and I am now in M.S. NYCU CS.",
+			"I am Yu-Hong Shen, characterized by a conscientious, disciplined, and resolutely studious nature. I graduated from B.S. Computer Science from NYCU in 2025, and now I’m currently pursuing M.S. at NYCU as well.",
 	},
 
 	about: {
