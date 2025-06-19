@@ -126,6 +126,19 @@ const Homepage = () => {
 								/>
 							</a> */}
 							<a
+								href={`${process.env.PUBLIC_URL}/CV_20250619.pdf`}
+								target="_blank"
+								rel="noreferrer"
+								download={`stanleyCV.pdf`}
+							>
+								<img
+									src={`${process.env.PUBLIC_URL}/cv.svg`}
+									alt="cv"
+									style={{width:"28px", height:"28px"}}
+									className="svg-inline--fa fa-envelopes-bulk homepage-social-icon"
+								/>
+							</a>
+							<a
 								href={INFO.socials.github}
 								target="_blank"
 								rel="noreferrer"
@@ -165,6 +178,7 @@ const Homepage = () => {
 									className="homepage-social-icon"
 								/>
 							</a>
+							
 						</div>
 
 						<div className="homepage-projects">
