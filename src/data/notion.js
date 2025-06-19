@@ -29,6 +29,25 @@ const notion_styles = {
     fontSize: '80%',
     color: '#444',
   },
+  '.table_of_contents': {
+
+  },
+  '.table_of_contents-indent-1': {
+    marginLeft: '1.5rem',
+  },
+  '.table_of_contents-indent-2': {
+    marginLeft: '3rem',
+  },
+  '.table_of_contents-indent-3': {
+    marginLeft: '4.5rem',
+  },
+  '.table_of_contents-item': {
+    display: 'block',
+    fontSize: '0.875rem',
+    lineHeight: 1.3,
+    padding: '0.125rem',
+    fontWeight: 'bolder',
+  },
   'h1, h2, h3': {
     letterSpacing: '-0.01em',
     lineHeight: 1.2,
