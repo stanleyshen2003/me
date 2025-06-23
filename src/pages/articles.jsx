@@ -22,6 +22,14 @@ const Articles = () => {
 
 	const categories = ["All", "Family", "School", "Work", "Others"];
 
+	const categoryColors = {
+		All: "#acddde",
+		Family: "#caf1de",
+		School: "#e1f8dc",
+		Work: "#fef8dd",
+		Others: "#ffe7c7",
+	};
+
 	return (
 		<React.Fragment>
 			<Helmet>
@@ -55,6 +63,7 @@ const Articles = () => {
 							{categories.map((category) => (
 								<button
 									key={category}
+									style={ selectedCategory === category ? {} : {backgroundColor: categoryColors[category], border: `4px solid ${categoryColors[category]}` }}
 									className={`category-button ${selectedCategory === category ? "selected" : ""}`}
 									onClick={() => setSelectedCategory(category)}
 								>

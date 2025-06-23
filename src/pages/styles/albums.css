@@ -1,10 +1,10 @@
-.articles-logo-container {
+.albums-logo-container {
 	display: flex;
 	justify-content: left;
 	padding-top: 25px;
 }
 
-.articles-logo {
+.albums-logo {
 	display: flex;
 	position: fixed;
 	border: 1px solid white;
@@ -13,7 +13,7 @@
 	top: 4vh;
 }
 
-.articles-main-container {
+.albums-main-container {
 	display: flex;
 	flex-direction: column;
 	height: 100%;
@@ -21,19 +21,19 @@
 	padding-top: 120px;
 }
 
-.articles-container {
+.albums-container {
 	display: flex;
 	flex-direction: column;
 }
 
-.articles-wrapper {
-	/* padding-top: 50px; */
+.albums-wrapper {
+	padding-top: 50px;
 	padding-bottom: 50px;
 	display: flex;
 	flex-direction: column;
 }
 
-.articles-article {
+.albums-album {
 	padding-top: 0px;
 	/* padding-left: 35px; */
 	padding-bottom: 20px;
@@ -44,11 +44,11 @@
 }
 
 @media (max-width: 1024px) {
-	.articles-title {
+	.albums-title {
 		width: 100% !important;
 	}
 
-	.articles-subtitle {
+	.albums-subtitle {
 		width: 100% !important;
 	}
 
@@ -57,7 +57,7 @@
 	}
 }
 
-
+/* 
 .category-row {
 	display: flex;
 	width: 100%;
@@ -75,14 +75,14 @@
 	box-sizing: border-box;
 	font-weight: bold;
 	/* border-color: #ffffff; */
-	overflow: hidden;
+	/* overflow: hidden;
 	border-top-left-radius: 10px;
 	border-top-right-radius: 10px;
 }
 
 .category-button:hover {
 	background-color: #ffffff;
-	/* color: #14B8A6; */
+	color: #14B8A6;
 	border: 4px solid #f6f6f6;
 	border-bottom: 0px;
 	
@@ -90,9 +90,8 @@
 
 .category-button.selected {
 	background-color: #ffffff;
-	/* color: #14B8A6; */
+	color: #14B8A6;
 	border: 4px solid #f6f6f6;
 	border-bottom: 0px;
 	
-}
-
+} */

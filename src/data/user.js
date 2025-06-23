@@ -17,11 +17,11 @@ const INFO = {
 	homepage: {
 		title: "A dedicated learner exploring the wonders of Computer Science",
 		description:
-			"I am Yu-Hong Shen, characterized by a conscientious, disciplined, and resolutely studious nature. I graduate from B.S. NYCU CS in 2025, and I am now in M.S. NYCU CS.",
+			"I am Yu-Hong Shen, characterized by a conscientious, disciplined, and resolutely studious nature. I graduated from B.S. Computer Science from NYCU in 2025, and now I’m currently pursuing M.S. at NYCU as well.",
 	},
 
 	about: {
-		title: "Hi, I’m Stanley Shen.",
+		title: "Hi, I'm Stanley Shen.",
 		description:
             "I'm a disciplined and determined person with a deep passion for computer science. I rank among the top 7% when I graduated from NYCU CS, with a cumulative GPA of 4.19. My academic interests include AI (Robotics / RL / DL / CV / NLP), computer netwrok, system, computation theory. My previous research focuses on language-guided robotic manipulation with Multimodal LLM, advised by Professor Yi-Ting Chen in Human-centered Intelligent Systems Lab. The research page can be found in the project list. I am currently a master student in NYCU CS. My recent research is related to ORAN, advised by Professor Chien-Chao Tseng in Wireless Internet Lab\n\nI’ve always enjoyed working on collaborative projects where ideas flow, people support each other, and the team grows together. My long-term involvement in orchestra and swimming since childhood has also shaped my teamwork, discipline, and perseverance—values I carry into every challenge I take on. I'm also fluent in English, having scored 965 on the TOEIC listening and reading test.",
 	},
@@ -29,6 +29,12 @@ const INFO = {
 		title: "Thoughts Compiled",
 		description:
 			"中英夾雜區",
+	},
+
+	albums: {
+		title: "Captured Moments",
+		description:
+			"Cool & Fun pictures of my life.",
 	},
 
 	pj: {

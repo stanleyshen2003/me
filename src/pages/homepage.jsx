@@ -134,7 +134,7 @@ const Homepage = () => {
 								<img
 									src={`${process.env.PUBLIC_URL}/cv.svg`}
 									alt="cv"
-									style={{width:"28px", height:"28px"}}
+									style={{width:"24px", height:"24px"}}
 									className="svg-inline--fa fa-envelopes-bulk homepage-social-icon"
 								/>
 							</a>
