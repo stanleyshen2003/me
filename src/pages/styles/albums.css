@@ -57,7 +57,7 @@
 	}
 }
 
-
+/* 
 .category-row {
 	display: flex;
 	width: 100%;
@@ -75,7 +75,7 @@
 	box-sizing: border-box;
 	font-weight: bold;
 	/* border-color: #ffffff; */
-	overflow: hidden;
+	/* overflow: hidden;
 	border-top-left-radius: 10px;
 	border-top-right-radius: 10px;
 }
@@ -94,4 +94,4 @@
 	border: 4px solid #f6f6f6;
 	border-bottom: 0px;
 	
-}
+} */

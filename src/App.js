@@ -7,7 +7,7 @@ import About from "./pages/about";
 import Projects from "./pages/projects";
 import Articles from "./pages/articles";
 import ReadArticle from "./pages/readArticle";
-import Contact from "./pages/contact";
+// import Contact from "./pages/contact";
 import Notfound from "./pages/404";
 import Albums from "./pages/albums";
 import ReadAlbum from "./pages/readAlbum";
@@ -30,7 +30,7 @@ function App() {
 				<Route path="/projects" element={<Projects />} />
 				<Route path="/articles" element={<Articles />} />
 				<Route path="/article/:slug" element={<ReadArticle />} />
-				<Route path="/contact" element={<Contact />} />
+				{/* <Route path="/contact" element={<Contact />} /> */}
 				<Route path="/albums" element={<Albums />} />
 				<Route path="/album/:slug" element={<ReadAlbum />} />
 				<Route path="*" element={<Notfound />} />

@@ -18,10 +18,19 @@ const allphotos = await Promise.all(
     const filePath = resolve(absoluteDirPath, file);
     console.log("filePath", filePath);
     const dimensions = await imageSizeFromFile(filePath);
+    var width = dimensions.width;
+    var height = dimensions.height;
+    if (dimensions.orientation === 6 || dimensions.orientation === 8) {
+        [width, height] = [height, width];
+    }
+    if (width > 1200) {
+        height = Math.round((height * 1200) / width);
+        width = 1200;
+    }
     return {
       src: `\${basedir}/album/${albumName}/${file}`,
-      width: dimensions.width,
-      height: dimensions.height,
+      width: width,
+      height: height,
     };
   })
 );

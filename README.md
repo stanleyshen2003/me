@@ -20,6 +20,9 @@
 - 🎨 **Responsive Layout Fixes** – Smoother and cleaner CSS styling
 - 📱 **Article Categories** – Articles now support categorization
 - 🧩 **Notion Integration** – Add notion.css for articles written in Notion
+- 🖼️ **Album Gallery** – Added photo album displayed with styling and navigation
+
+
 
 ---
 
@@ -29,6 +32,20 @@ To add a new article:
 
 1. Create your component in `src/data/myArticles` (e.g., `computerAssembly.js`)
 2. Register it in `src/data/articles.js`  
+
+
+---
+
+## 📝 Add a New Album
+
+To add a new album:
+
+1. Add your photos into `public/album/#NAME`
+2. (Optional) Run `bash public/album/rename.sh #NAME`
+3. Create your component in `src/data/myAlbums` (e.g., `dragon.js`)
+4. Add all your photos by running and copying the result of `src/data/myAlbums/util.mjs`
+5. Register it in `src/data/albums.js` 
+6. Add representation image into `public/album/representative`
 
 ---
 

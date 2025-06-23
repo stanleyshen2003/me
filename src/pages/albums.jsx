@@ -58,10 +58,10 @@ const Albums = () => {
 											key={(index + 1).toString()}
 										>
 											<Album
-												date={album().date}
 												title={album().title}
 												description={album().description}
 												link={"/album/" + (index + 1)}
+												representativeImage={album().representative}
 											/>
 										</div>
 									))

@@ -82,7 +82,7 @@
 
 .category-button:hover {
 	background-color: #ffffff;
-	color: #14B8A6;
+	/* color: #14B8A6; */
 	border: 4px solid #f6f6f6;
 	border-bottom: 0px;
 	
@@ -90,8 +90,9 @@
 
 .category-button.selected {
 	background-color: #ffffff;
-	color: #14B8A6;
+	/* color: #14B8A6; */
 	border: 4px solid #f6f6f6;
 	border-bottom: 0px;
 	
 }
+

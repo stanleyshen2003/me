@@ -32,9 +32,9 @@ const INFO = {
 	},
 
 	albums: {
-		title: "Pictures of My Life",
+		title: "Captured Moments",
 		description:
-			"Cool & fun photos of my life.",
+			"Cool & Fun pictures of my life.",
 	},
 
 	pj: {

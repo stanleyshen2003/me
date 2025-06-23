@@ -6,13 +6,17 @@ import { faChevronRight } from "@fortawesome/free-solid-svg-icons";
 import "./style/album.css";
 
 const Album = (props) => {
-	const { date, title, description, link } = props;
+	const { title, description, link, representativeImage } = props;
 
 	return (
 		<React.Fragment>
 			<div className="album">
 				<div className="album-left-side">
-					<div className="album-date">{date}</div>
+					<img
+						src={representativeImage}
+						alt={title}
+						className="album-image"
+					/>
 				</div>
 
 				<Link to={link}>

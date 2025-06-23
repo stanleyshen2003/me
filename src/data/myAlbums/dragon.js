@@ -3,125 +3,73 @@ function dragonPhoto() {
 	const basedir = process.env.PUBLIC_URL || "/me";
 
 	const allphotos = [
-		{
-			src: `${basedir}/album/dragon/1706450155848.jpg`,
-			width: 960,
-			height: 1705
-		},
-		{
-			src: `${basedir}/album/dragon/1706450161455.jpg`,
-			width: 960,
-			height: 1705
-		},
-		{
-			src: `${basedir}/album/dragon/1706450164291.jpg`,
-			width: 960,
-			height: 1705
-		},
-		{
-			src: `${basedir}/album/dragon/1706525223285.jpg`,
-			width: 960,
-			height: 1706
-		},
-		{
-			src: `${basedir}/album/dragon/1706607663669.jpg`,
-			width: 960,
-			height: 1706
-		},
-		{
-			src: `${basedir}/album/dragon/1706623473906.jpg`,
-			width: 960,
-			height: 1705
-		},
-		{
-			src: `${basedir}/album/dragon/1706691774378.jpg`,
-			width: 960,
-			height: 1706
-		},
-		{
-			src: `${basedir}/album/dragon/1706710749866.jpg`,
-			width: 960,
-			height: 1705
-		},
-		{
-			src: `${basedir}/album/dragon/1706805498888.jpg`,
-			width: 1108,
-			height: 1477
-		},
-		{
-			src: `${basedir}/album/dragon/1706867459332.jpg`,
-			width: 960,
-			height: 1705
-		},
-		{
-			src: `${basedir}/album/dragon/1706867462644.jpg`,
-			width: 960,
-			height: 1705
-		},
-		{
-			src: `${basedir}/album/dragon/1706873782666.jpg`,
-			width: 960,
-			height: 1706
-		},
-		{
-			src: `${basedir}/album/dragon/1706971953863.jpg`,
-			width: 960,
-			height: 1706
-		},
-		{
-			src: `${basedir}/album/dragon/1707390812632.jpg`,
-			width: 1108,
-			height: 1477
-		},
-		{
-			src: `${basedir}/album/dragon/1707553301775.jpg`,
-			width: 1108,
-			height: 1477
-		},
-		{
-			src: `${basedir}/album/dragon/1707553304569.jpg`,
-			width: 1108,
-			height: 1477
-		},
-		{
-			src: `${basedir}/album/dragon/1707662975358.jpg`,
-			width: 1108,
-			height: 1477
-		},
-		{
-			src: `${basedir}/album/dragon/20230405_231059.jpg`,
-			width: 3024,
-			height: 3024
-		},
-		{
-			src: `${basedir}/album/dragon/IMG_20240225_235340_468.jpg`,
-			width: 1080,
-			height: 1920
-		},
-		{
-			src: `${basedir}/album/dragon/IMG_20240225_235344_051.jpg`,
-			width: 563,
-			height: 1000
-		},
-		{
-			src: `${basedir}/album/dragon/IMG_20240226_111034_944.jpg`,
-			width: 653,
-			height: 653
-		},
-		{
-			src: `${basedir}/album/dragon/IMG_20240228_180935_634.jpg`,
-			width: 459,
-			height: 816
-		},
-		{
-			src: `${basedir}/album/dragon/IMG_20240302_171845_707.jpg`,
-			width: 459,
-			height: 816
-		}
+		{ src: `${basedir}/album/dragon/1.jpg`, width: 1200, height: 2131 },
+		{ src: `${basedir}/album/dragon/10.jpg`, width: 1200, height: 2133 },
+		{ src: `${basedir}/album/dragon/11.jpg`, width: 1200, height: 2133 },
+		{ src: `${basedir}/album/dragon/12.jpg`, width: 1200, height: 2133 },
+		{ src: `${basedir}/album/dragon/13.jpg`, width: 1200, height: 2133 },
+		{ src: `${basedir}/album/dragon/14.jpg`, width: 1200, height: 2133 },
+		{ src: `${basedir}/album/dragon/15.jpg`, width: 1200, height: 2133 },
+		{ src: `${basedir}/album/dragon/16.jpg`, width: 1200, height: 2133 },
+		{ src: `${basedir}/album/dragon/17.jpg`, width: 1200, height: 2133 },
+		{ src: `${basedir}/album/dragon/18.jpg`, width: 960, height: 1705 },
+		{ src: `${basedir}/album/dragon/19.jpg`, width: 960, height: 1705 },
+		{ src: `${basedir}/album/dragon/2.jpg`, width: 1200, height: 1600 },
+		{ src: `${basedir}/album/dragon/20.jpg`, width: 960, height: 1705 },
+		{ src: `${basedir}/album/dragon/21.jpg`, width: 960, height: 1706 },
+		{ src: `${basedir}/album/dragon/22.jpg`, width: 960, height: 1706 },
+		{ src: `${basedir}/album/dragon/23.jpg`, width: 960, height: 1705 },
+		{ src: `${basedir}/album/dragon/24.jpg`, width: 960, height: 1705 },
+		{ src: `${basedir}/album/dragon/25.jpg`, width: 1108, height: 1477 },
+		{ src: `${basedir}/album/dragon/26.jpg`, width: 960, height: 1705 },
+		{ src: `${basedir}/album/dragon/27.jpg`, width: 960, height: 1705 },
+		{ src: `${basedir}/album/dragon/28.jpg`, width: 960, height: 1706 },
+		{ src: `${basedir}/album/dragon/29.jpg`, width: 960, height: 1706 },
+		{ src: `${basedir}/album/dragon/3.jpg`, width: 1200, height: 2133 },
+		{ src: `${basedir}/album/dragon/30.jpg`, width: 1108, height: 1477 },
+		{ src: `${basedir}/album/dragon/31.jpg`, width: 1108, height: 1477 },
+		{ src: `${basedir}/album/dragon/32.jpg`, width: 1108, height: 1477 },
+		{ src: `${basedir}/album/dragon/33.jpg`, width: 1108, height: 1477 },
+		{ src: `${basedir}/album/dragon/34.jpg`, width: 1080, height: 1920 },
+		{ src: `${basedir}/album/dragon/35.jpg`, width: 563, height: 1000 },
+		{ src: `${basedir}/album/dragon/36.jpg`, width: 459, height: 816 },
+		{ src: `${basedir}/album/dragon/37.jpg`, width: 459, height: 816 },
+		{ src: `${basedir}/album/dragon/38.jpg`, width: 1080, height: 1920 },
+		{ src: `${basedir}/album/dragon/39.jpg`, width: 1080, height: 1920 },
+		{ src: `${basedir}/album/dragon/4.jpg`, width: 1200, height: 2133 },
+		{ src: `${basedir}/album/dragon/40.jpg`, width: 1075, height: 806 },
+		{ src: `${basedir}/album/dragon/41.jpg`, width: 1080, height: 1920 },
+		{ src: `${basedir}/album/dragon/42.jpg`, width: 1080, height: 1920 },
+		{ src: `${basedir}/album/dragon/43.jpg`, width: 1080, height: 1920 },
+		{ src: `${basedir}/album/dragon/44.jpg`, width: 1080, height: 1920 },
+		{ src: `${basedir}/album/dragon/45.jpg`, width: 1080, height: 1920 },
+		{ src: `${basedir}/album/dragon/46.jpg`, width: 1080, height: 1920 },
+		{ src: `${basedir}/album/dragon/47.jpg`, width: 1080, height: 1920 },
+		{ src: `${basedir}/album/dragon/48.jpg`, width: 1080, height: 1920 },
+		{ src: `${basedir}/album/dragon/49.jpg`, width: 1080, height: 1920 },
+		{ src: `${basedir}/album/dragon/5.jpg`, width: 1200, height: 1600 },
+		{ src: `${basedir}/album/dragon/50.jpg`, width: 1080, height: 1920 },
+		{ src: `${basedir}/album/dragon/51.jpg`, width: 1080, height: 1920 },
+		{ src: `${basedir}/album/dragon/52.jpg`, width: 1080, height: 1920 },
+		{ src: `${basedir}/album/dragon/53.jpg`, width: 1080, height: 1920 },
+		{ src: `${basedir}/album/dragon/54.jpg`, width: 1080, height: 1920 },
+		{ src: `${basedir}/album/dragon/55.jpg`, width: 1080, height: 1920 },
+		{ src: `${basedir}/album/dragon/56.jpg`, width: 1080, height: 1920 },
+		{ src: `${basedir}/album/dragon/57.jpg`, width: 1080, height: 1920 },
+		{ src: `${basedir}/album/dragon/58.jpg`, width: 1080, height: 1920 },
+		{ src: `${basedir}/album/dragon/59.jpg`, width: 1080, height: 1920 },
+		{ src: `${basedir}/album/dragon/6.jpg`, width: 1200, height: 2133 },
+		{ src: `${basedir}/album/dragon/60.jpg`, width: 1080, height: 1920 },
+		{ src: `${basedir}/album/dragon/61.jpg`, width: 1080, height: 1920 },
+		{ src: `${basedir}/album/dragon/62.jpg`, width: 1108, height: 1477 },
+		{ src: `${basedir}/album/dragon/63.jpg`, width: 960, height: 1706 },
+		{ src: `${basedir}/album/dragon/7.jpg`, width: 1200, height: 2133 },
+		{ src: `${basedir}/album/dragon/8.jpg`, width: 1200, height: 2133 },
+		{ src: `${basedir}/album/dragon/9.jpg`, width: 1200, height: 2134 }
 	];
 	
 	return {
-		date: "18 June 2025",
+		date: "Last Update: 24 June 2025",
 		title: "可愛小奶龍",
 		description:
 			"這是我的舒壓小夥伴奶龍，他陪我過了 N 個壓力大的夜晚，這是一些他的可愛照片 (歐洲龍)。",
@@ -133,6 +81,7 @@ function dragonPhoto() {
 			"Stanley Shen",
 		],
 		photos: allphotos,
+		representative: `${basedir}/album/representative/dragon.jpg`,
 	};
 }
 
