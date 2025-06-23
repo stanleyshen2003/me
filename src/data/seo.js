@@ -21,11 +21,19 @@ const SEO = [
 	},
 
 	{
+		page: "albums",
+		description:
+			"A collection of my albums, showcasing my life experiences, travels, and memorable moments.",
+		keywords: ["Stanley", "Stanley S", "Stanley Shen"],
+	},
+
+	{
 		page: "projects",
 		description:
 			"I've worked on a variety of projects over the years and I'm proud of the progress I've made. Many of these projects are open-source and available for others to explore and contribute to.",
 		keywords: ["Stanley", "Stanley S", "Stanley Shen"],
 	},
+	
 
 	{
 		page: "contact",
