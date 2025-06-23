@@ -79,6 +79,12 @@
 
 .read-album-title {
 	padding-top: 50px;
+	/* padding-bottom: 20px; */
+	width: 100% !important;
+}
+
+.read-album-subtitle {
+	padding-top: 0px;
 	padding-bottom: 20px;
 	width: 100% !important;
 }

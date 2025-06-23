@@ -1,9 +1,9 @@
-import computerAssembly from "./myAlbums/computerAssembly";
+import dragonPhoto from "./myAlbums/dragon";
 
 
 
 
 
-const myAlbums = [computerAssembly];
+const myAlbums = [dragonPhoto];
 
 export default myAlbums;

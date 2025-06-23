@@ -20,7 +20,7 @@ const Album = (props) => {
 						<div className="album-title">{title}</div>
 						<div className="album-description">{description}</div>
 						<div className="album-link">
-							Read Album{" "}
+							View Album{" "}
 							<FontAwesomeIcon
 								style={{ fontSize: "10px" }}
 								icon={faChevronRight}

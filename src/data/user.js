@@ -34,7 +34,7 @@ const INFO = {
 	albums: {
 		title: "Pictures of My Life",
 		description:
-			"...",
+			"Cool & fun photos of my life.",
 	},
 
 	pj: {

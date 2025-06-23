@@ -1,7 +1,6 @@
 import React, { useEffect } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import { Helmet } from "react-helmet";
-import styled from "styled-components";
 
 import NavBar from "../components/common/navBar";
 import Footer from "../components/common/footer";
@@ -13,8 +12,8 @@ import myAlbums from "../data/albums";
 // import "./styles/notion.css"
 import "./styles/readAlbum.css";
 
-
-let Albumtyle = styled.div``;
+import { RowsPhotoAlbum } from "react-photo-album";
+import "react-photo-album/rows.css";
 
 const ReadAlbum = () => {
 	const navigate = useNavigate();
@@ -26,9 +25,6 @@ const ReadAlbum = () => {
 		window.scrollTo(0, 0);
 	}, [album]);
 
-	Albumtyle = styled.div`
-		${album().style}
-	`;
 
 	return (
 		<React.Fragment>
@@ -69,8 +65,12 @@ const ReadAlbum = () => {
 								{album().title}
 							</div>
 
+							<div className="subtitle read-album-subtitle">
+								{album().description}
+							</div>
+
 							<div className="read-album-body">
-								<Albumtyle>{album().body}</Albumtyle>
+								<RowsPhotoAlbum photos={album().photos} />
 							</div>
 						</div>
 					</div>
