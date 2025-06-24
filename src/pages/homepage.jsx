@@ -61,7 +61,7 @@ const Homepage = () => {
 	const logoStyle = {
 		display: "flex",
 		position: stayLogo ? "fixed" : "relative",
-		top: stayLogo ? "3vh" : "auto",
+		top: stayLogo ? "4vh" : "auto",
 		zIndex: 999,
 		border: stayLogo ? "1px solid white" : "none",
 		borderRadius: stayLogo ? "50%" : "none",
@@ -85,7 +85,7 @@ const Homepage = () => {
 				<div className="content-wrapper">
 					<div className="homepage-logo-container">
 						<div style={logoStyle}>
-							<Logo width={logoSize} link={false} />
+							<Logo width={stayLogo? '40px':logoSize} link={false} />
 						</div>
 					</div>
 
