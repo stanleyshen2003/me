@@ -39,10 +39,11 @@
 
 .homepage-image-container {
 	width: 370px;
-	height: 370px;
+	/* height: 370px; */
 }
 
 .homepage-image-wrapper {
+	display: inline-block;
 	overflow: hidden;
 	border-radius: 10%;
 	transform: rotate(3deg);
@@ -50,6 +51,7 @@
 }
 
 .homepage-image-wrapper img {
+	display: block;
 	width: 100%;
 }
 
@@ -126,8 +128,8 @@
 	}
 
 	.homepage-image-container {
-		padding-top: 50px;
-		padding-bottom: 50px;
+		padding-top: 40px;
+		padding-bottom: 40px;
 		margin-left: 10px;
 		order: 1;
 	}
@@ -148,5 +150,17 @@
 		flex-basis: auto;
 		margin-left: -25px;
 		margin-right: -25px;
+	}
+}
+
+
+
+@media (max-width: 600px) {
+	.homepage-container {
+		padding-top: 0px;
+	}
+
+	.homepage-image-container {
+		width: 80%;
 	}
 }
