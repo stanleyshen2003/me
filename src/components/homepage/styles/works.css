@@ -51,6 +51,6 @@
 @media (max-width: 1024px) {
 	.work-duration {
 		font-size: 11px;
-		padding-top: 23px;
+		padding-top: 0px;
 	}
 }
