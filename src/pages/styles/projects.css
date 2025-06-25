@@ -22,6 +22,16 @@
 	padding-top: 120px;
 }
 
+@media (max-width: 1024px) {
+	.projects-title {
+		width: 100% !important;
+	}
+
+	.projects-subtitle {
+		width: 100% !important;
+	}
+}
+
 @media (max-width: 600px) {
 	.projects-container {
 		padding-top: 60px;

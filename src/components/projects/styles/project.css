@@ -69,4 +69,7 @@
 	.project {
 		height: 100%;
 	}
+	.project-container {
+  		padding: 15px;
+ 	}	
 }

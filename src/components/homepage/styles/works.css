@@ -7,7 +7,8 @@
 .work {
 	display: flex;
 	padding-bottom: 40px;
-	width: 400px;
+	/* width: 400px; */
+	width: auto;
 }
 
 .work-image {
@@ -35,10 +36,21 @@
 }
 
 .work-duration {
-	position: absolute;
-	width: 400px;
+	/* position: absolute; */
+	/* width: 400px; */
+	/* width: 100%; */
 	font-size: 12px;
-	padding-top: 20px;
+	padding-top: 22px;
 	text-align: right;
 	color: var(--tertiary-color);
+	margin-left: auto;
+
+}
+
+
+@media (max-width: 1024px) {
+	.work-duration {
+		font-size: 11px;
+		padding-top: 0px;
+	}
 }
