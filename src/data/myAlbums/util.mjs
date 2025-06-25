@@ -7,7 +7,7 @@ const albumName = 'dragon'; // Change this to your album name
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
-const absoluteDirPath = resolve(__dirname, '../../../public/album', albumName);
+const absoluteDirPath = resolve(__dirname, '../../../public/albums', albumName);
 
 const files = await readdir(absoluteDirPath);
 
