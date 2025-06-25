@@ -97,7 +97,7 @@
 	padding-top: 30px;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1200px) {
 	.homepage-first-area {
 		flex-direction: column;
 	}
