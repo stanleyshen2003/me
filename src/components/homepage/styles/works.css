@@ -42,3 +42,11 @@
 	text-align: right;
 	color: var(--tertiary-color);
 }
+
+
+@media (max-width: 1024px) {
+	.work-duration {
+		width: 370px;
+		padding-top: 23px;
+	}
+}
