@@ -9,7 +9,9 @@
 ## 🧭 Table of Contents
 
 - [✨ Features Added](#-features-added)
+- [⚡ Run Locally](#-run-locally)
 - [📝 Add a New Article](#-add-a-new-article)
+- [🏞️ Add a New Album](#-add-a-new-album)
 - [🤝 Contributing](#-contributing)
 
 ---
@@ -26,6 +28,15 @@
 
 ---
 
+## ⚡ Run Locally
+
+```bash
+npm install
+npm run start
+```
+
+---
+
 ## 📝 Add a New Article
 
 To add a new article:
@@ -36,7 +47,7 @@ To add a new article:
 
 ---
 
-## 📝 Add a New Album
+## 🏞️ Add a New Album
 
 To add a new album:
 
@@ -52,6 +63,6 @@ To add a new album:
 ## 🤝 Contributing
 
 Have cool ideas or spotted something to improve?  
-Feel free to [open an issue](https://github.com/truethari/reactfolio/issues) or fork the project and make it your own!
+Feel free to [open an issue](https://github.com/stanleyshen2003/me/issues) or fork the project and make it your own!
 
 > Let’s build something awesome together 💡

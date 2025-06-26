@@ -22,7 +22,7 @@ const Footer = () => {
 							<Link to="/articles">Articles</Link>
 						</li>
 						<li className="footer-nav-link-item">
-							<Link to="/albums">Album</Link>
+							<Link to="/albums">Albums</Link>
 						</li>
 					</ul>
 				</div>

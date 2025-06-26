@@ -387,7 +387,29 @@ const notion_styles = {
     fontSize: '0.75em',
     marginTop: '0.25em',
   },
-  '.sans': { fontFamily: 'ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol"' },
+  '.img60-100': {
+    width: '60%',
+  },
+  '.img70-100': {
+    width: '70%',
+  },
+  '.img80-100': {
+    width: '80%',
+  },
+  // media queries
+  '@media (max-width: 1200px)': {
+    '.img60-100': {
+      width: '100%',
+    },
+    '.img70-100': {
+      width: '100%',
+    },
+    '.img80-100': {
+      width: '100%',
+    },
+  },
+  '.p': {marginTop: '1em', marginBottom: '1em'},
+  '.sans': { fontFamily: '"Lato", "Noto Sans TC", "PingFang TC", "Helvetica Neue", "SF Pro TC", "Helvetica", "arial", "Microsoft JhengHei", "Microsoft YaHei", sans-serif;' },
   '.serif': { fontFamily: 'Lyon-Text, Georgia, ui-serif, serif' },
   '.mono': { fontFamily: 'iawriter-mono, Nitti, Menlo, Courier, monospace' },
   '.pdf .sans': { fontFamily: 'Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", "Twemoji", "Noto Color Emoji", "Noto Sans CJK JP"' },
