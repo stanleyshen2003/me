@@ -9,6 +9,7 @@
 ## 🧭 Table of Contents
 
 - [✨ Features Added](#-features-added)
+- [⚡ Run Locally](#-run-locally)
 - [📝 Add a New Article](#-add-a-new-article)
 - [🏞️ Add a New Album](#-add-a-new-album)
 - [🤝 Contributing](#-contributing)
@@ -27,7 +28,7 @@
 
 ---
 
-## Run Locally
+## ⚡ Run Locally
 
 ```bash
 npm install
