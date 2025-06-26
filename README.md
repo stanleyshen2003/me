@@ -47,7 +47,7 @@ To add a new article:
 
 ---
 
-## 📝 Add a New Album
+## 🏞️ Add a New Album
 
 To add a new album:
 
