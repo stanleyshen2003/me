@@ -387,6 +387,27 @@ const notion_styles = {
     fontSize: '0.75em',
     marginTop: '0.25em',
   },
+  '.img60-100': {
+    width: '60%',
+  },
+  '.img70-100': {
+    width: '70%',
+  },
+  '.img80-100': {
+    width: '80%',
+  },
+  // media queries
+  '@media (max-width: 1200px)': {
+    '.img60-100': {
+      width: '100%',
+    },
+    '.img70-100': {
+      width: '100%',
+    },
+    '.img80-100': {
+      width: '100%',
+    },
+  },
   '.p': {marginTop: '1em', marginBottom: '1em'},
   '.sans': { fontFamily: '"Lato", "Noto Sans TC", "PingFang TC", "Helvetica Neue", "SF Pro TC", "Helvetica", "arial", "Microsoft JhengHei", "Microsoft YaHei", sans-serif;' },
   '.serif': { fontFamily: 'Lyon-Text, Georgia, ui-serif, serif' },
