@@ -10,6 +10,7 @@
 
 - [✨ Features Added](#-features-added)
 - [📝 Add a New Article](#-add-a-new-article)
+- [🏞️ Add a New Album](#-add-a-new-album)
 - [🤝 Contributing](#-contributing)
 
 ---
@@ -23,6 +24,15 @@
 - 🖼️ **Album Gallery** – Added photo album displayed with styling and navigation
 
 
+
+---
+
+## Run Locally
+
+```bash
+npm install
+npm run start
+```
 
 ---
 
