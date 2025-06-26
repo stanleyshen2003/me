@@ -52,6 +52,6 @@ To add a new album:
 ## 🤝 Contributing
 
 Have cool ideas or spotted something to improve?  
-Feel free to [open an issue](https://github.com/truethari/reactfolio/issues) or fork the project and make it your own!
+Feel free to [open an issue](https://github.com/stanleyshen2003/me/issues) or fork the project and make it your own!
 
 > Let’s build something awesome together 💡
