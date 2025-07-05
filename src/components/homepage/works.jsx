@@ -15,7 +15,7 @@ const Works = () => {
 					<div className="works-body">
 						<div className="work">
 							<img
-								src={`${process.env.PUBLIC_URL}/asml.png`}
+								src={`${process.env.PUBLIC_URL}/asml.webp`}
 								alt="asml"
 								className="work-image"
 							/>
@@ -28,7 +28,7 @@ const Works = () => {
 						
 						<div className="work">
 							<img
-								src={`${process.env.PUBLIC_URL}/cloudmile.png`}
+								src={`${process.env.PUBLIC_URL}/cloudmile.webp`}
 								alt="cloudmile"
 								className="work-image"
 							/>

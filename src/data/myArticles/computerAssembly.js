@@ -91,10 +91,10 @@ function computerAssembly() {
 						<p id="216b7849-9a0a-8093-8dff-c9500c0db6bb" class="">炫泡亮晶晶 😍</p>
 						<div id="216b7849-9a0a-80a1-9b45-d0f5f7c45715" class="column-list">
 							<div id="216b7849-9a0a-8046-b069-fb798483d12b" style={{width:"50%", textAlign:"center"}} class="column">
-								<figure id="216b7849-9a0a-8031-8b72-f467e1df4c88" class="image"><a href={`${basedir}/articles/computerAssembly/computer1.png`}><img style={{height: "auto", maxHeight:"300px", width: "auto", objectFit: "contain"}} alt="" src={`${basedir}/articles/computerAssembly/computer1.png`}/></a></figure>
+								<figure id="216b7849-9a0a-8031-8b72-f467e1df4c88" class="image"><a href={`${basedir}/articles/computerAssembly/computer1.webp`}><img style={{height: "auto", maxHeight:"300px", width: "auto", objectFit: "contain"}} alt="" src={`${basedir}/articles/computerAssembly/computer1.webp`}/></a></figure>
 							</div>
 							<div id="216b7849-9a0a-8033-a84c-fe4a1e629983" style={{width:"50%", textAlign:"center"}} class="column">
-								<figure id="216b7849-9a0a-805f-9111-d7eaa86c454e" class="image"><a href={`${basedir}/articles/computerAssembly/computer2.png`}><img style={{height: "auto", maxHeight:"300px", width: "auto", objectFit: "contain"}} alt="" src={`${basedir}/articles/computerAssembly/computer2.png`}/></a></figure>
+								<figure id="216b7849-9a0a-805f-9111-d7eaa86c454e" class="image"><a href={`${basedir}/articles/computerAssembly/computer2.webp`}><img style={{height: "auto", maxHeight:"300px", width: "auto", objectFit: "contain"}} alt="" src={`${basedir}/articles/computerAssembly/computer2.webp`}/></a></figure>
 							</div>
 						</div>
 						<h2 id="216b7849-9a0a-800c-bdfb-ce33f8f2597b" class="">心得</h2>

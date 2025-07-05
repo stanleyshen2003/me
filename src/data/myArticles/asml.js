@@ -72,7 +72,7 @@ function ASML() {
                         <p id="217b7849-9a0a-807a-887e-dc97347f2a2c" class="">D&amp;E 內部也有很多部門，我接觸的到的有 YieldStar 相關的部門 *3、VCP (Virtual Computing Platform)、Litho Insight (我的 team，以下簡稱 Litho)，平常都跟他們換再一起坐，所以認識了一些他們的人 (Link: <a href="https://www.facebook.com/ASMLTW/posts/asml-rd%E8%81%B7%E7%BC%BA%E8%A7%A3%E7%AD%94%EF%B8%8Fsoftware-design-part-i%E5%B7%A5%E4%BD%9C%E5%85%A7%E5%AE%B9%E7%9B%AE%E5%89%8Dasml-software-design%E9%83%A8%E9%96%80%E6%9C%89%E4%B8%89%E5%80%8B%E5%9C%98%E9%9A%8A1-yieldstar-s/2460475000681055/?locale=zh_TW">我們的大老闆 Charles</a>)。我的 team 做的是機台上執行的程式，可以想像成是機台按一個按鈕後，機台就會跑我們寫的一些 function，他們把這些 function 稱為 job，台灣 team own 大概 8 個 job。Team 內有在敏捷開發，大概是三個月(not sure)，屬於 PI (Program Increment)，每天早上 10. 固定 daily scrum (10 min)，大概講一下昨天做了什麼和今天打算做什麼，是一個可以了解誰跟誰在合作&amp;在做的好機會。</p>
                         <p id="217b7849-9a0a-80ab-b8a2-fdb27fbd1ab5" class=""></p>
                         <p id="217b7849-9a0a-80fc-9a11-d122a1c8a974" class="">Team member 有 (照順序) Jerry, Jimmy, Ethan, Randy, Jeff, (me), Pei-Yi, Pei-Yi, Bart, York。</p>
-                        <figure id="21eb7849-9a0a-805d-95ee-ca56c759b25a" class="image"><a href={`${basedir}/articles/ASML/pastaio.jpg`}><img alt="my role models" className="img70-100" src={`${basedir}/articles/ASML/pastaio.jpg`}/></a></figure>
+                        <figure id="21eb7849-9a0a-805d-95ee-ca56c759b25a" class="image"><a href={`${basedir}/articles/ASML/pastaio.webp`}><img alt="my role models" className="img70-100" src={`${basedir}/articles/ASML/pastaio.webp`}/></a></figure>
                         <p id="21eb7849-9a0a-8094-8d58-fdd3d7c60778" class="">他們都是我的 role model，工作認真溝通效率高，氣氛歡樂又持續有產出，也給了我很多職涯、學業、生活 (這個最多，吃飯常聽他們的帶娃日常) 的建議。</p>
                         <h2 id="217b7849-9a0a-8001-ab3b-e1556cadad12" class="">Mentor</h2>
                         <p id="217b7849-9a0a-8033-a9f1-dd6e8663b6f7" class="">我的 mentor 有兩個 - Jerry &amp; Jeff。兩位 mentor 平常都挺忙，不是在開會就是要準備開會了，我有問題的話都是問 Jeff，每次打開 teams 的時候他幾乎都是紅圈圈 XD。</p>
@@ -133,13 +133,13 @@ function ASML() {
                         <ul id="217b7849-9a0a-8030-af44-d6fb05cd86ed" class="bulleted-list">
                             <li style={{ListStyleType:"disc"}}>
                                 Architecture
-                                <figure id="217b7849-9a0a-802e-849f-fd0f521a54bf" class="image" style={{textAlign:"center"}}><a href={`${basedir}/articles/ASML/architecture.png`}><img alt="architecture" className="img70-100" src={`${basedir}/articles/ASML/architecture.png`}/></a></figure>
+                                <figure id="217b7849-9a0a-802e-849f-fd0f521a54bf" class="image" style={{textAlign:"center"}}><a href={`${basedir}/articles/ASML/architecture.webp`}><img alt="architecture" className="img70-100" src={`${basedir}/articles/ASML/architecture.webp`}/></a></figure>
                             </li>
                         </ul>
                         <ul id="217b7849-9a0a-80b8-9227-f797d927f93b" class="bulleted-list">
                             <li style={{ListStyleType:"disc"}}>
                                 Pipeline
-                                <figure id="217b7849-9a0a-801c-b19f-dc4c15251a76" class="image" style={{textAlign:"center"}}><a href={`${basedir}/articles/ASML/pipeline.png`}><img alt="pipeline" className="img80-100" src={`${basedir}/articles/ASML/pipeline.png`}/></a></figure>
+                                <figure id="217b7849-9a0a-801c-b19f-dc4c15251a76" class="image" style={{textAlign:"center"}}><a href={`${basedir}/articles/ASML/pipeline.webp`}><img alt="pipeline" className="img80-100" src={`${basedir}/articles/ASML/pipeline.webp`}/></a></figure>
                             </li>
                         </ul>
                         <p id="21eb7849-9a0a-800b-827e-f422c4b61840" class="">這份主要對接人是 Pei-Yi &amp; Jeff，感謝 Pei-Yi 在裝 AJTF 時候給了很多幫助，也感謝其他給了很多 tool enhancement 的建議 or feature request。</p>
@@ -233,8 +233,8 @@ function ASML() {
                         <p id="219b7849-9a0a-808b-a189-fa8b21b463ac" class="">感謝你每天都陪我打桌球 (其實是 Esther 走之後才每天打的)，感謝平常陪我聊天講屁話抱怨 (我講真 ASML 少了 Johnny 我真的會無聊死)。我跟 Johnny 算是校友，但我是真的沒想到跑去林口還是能遇到陽明的 bro，總之很高興認識你，我下次依舊會用桌球打爆你，祝 everything 一切順利!</p>
                         <h3 id="219b7849-9a0a-80a1-925b-c0a477fcd7f0" class="">Henry</h3>
                         <p id="219b7849-9a0a-80cc-bf7a-e685d0f47f64" class="">感謝你會在要搭車的時候等我，感謝你在 ASML 認出我 (btw 我一開始真的沒認出他，應該說我根本不知道這人 … 我以為我在實驗室是個小透明)，總之跟這人的緣分挺奇妙的，祝你接下來一切順利嘍~ (2025 Fall 繼續交大見)</p>
-                        <figure class="image"><a href={`${basedir}/articles/ASML/johnnyesther.jpg`}><img alt="Johnny & Esther" className="img60-100" src={`${basedir}/articles/ASML/johnnyesther.jpg`}/></a></figure>
-                        <figure class="image"><a href={`${basedir}/articles/ASML/johnnyhenry.jpg`}><img alt="Johnny & Henry" className="img60-100" src={`${basedir}/articles/ASML/johnnyhenry.jpg`}/></a></figure>
+                        <figure class="image"><a href={`${basedir}/articles/ASML/johnnyesther.webp`}><img alt="Johnny & Esther" className="img60-100" src={`${basedir}/articles/ASML/johnnyesther.webp`}/></a></figure>
+                        <figure class="image"><a href={`${basedir}/articles/ASML/johnnyhenry.webp`}><img alt="Johnny & Henry" className="img60-100" src={`${basedir}/articles/ASML/johnnyhenry.webp`}/></a></figure>
                     </div>
                 </article>
 			</React.Fragment>
