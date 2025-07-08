@@ -35,7 +35,7 @@ const ReadAlbum = () => {
 			</Helmet>
 
 			<div className="page-content">
-				<NavBar />
+				<NavBar active="albums" />
 
 				<div className="content-wrapper">
 					<div className="read-album-logo-container">
@@ -47,7 +47,7 @@ const ReadAlbum = () => {
 					<div className="read-album-container">
 						<div className="read-album-back">
 							<img
-								src={`${process.env.PUBLIC_URL}/back-button.png`}
+								src={`${process.env.PUBLIC_URL}/back-button.webp`}
 								alt="back"
 								className="read-album-back-button"
 								onClick={() => navigate(`/albums`)}

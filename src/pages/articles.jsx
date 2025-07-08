@@ -78,19 +78,27 @@ const Articles = () => {
 									.filter((article) =>
 										selectedCategory === "All" || article().type === selectedCategory
 									)
-									.map((article, index) => (
-										<div
-											className="articles-article"
-											key={(index + 1).toString()}
-										>
-											<Article
-												date={article().date}
-												title={article().title}
-												description={article().description}
-												link={"/article/" + (index + 1)}
-											/>
-										</div>
-									))
+									.reverse()
+									.map((article, index) => {
+        								// Calculate original index before reverse
+										const originalIndex = myArticles.filter((art) =>
+											selectedCategory === "All" || art().type === selectedCategory
+										).length - index - 1;
+										
+										return (
+											<div
+												className="articles-article"
+												key={(originalIndex + 1).toString()}
+											>
+												<Article
+													date={article().date}
+													title={article().title}
+													description={article().description}
+													link={"/article/" + (originalIndex + 1)}
+												/>
+											</div>
+										);
+									})
 								}
 							</div>
 						</div>

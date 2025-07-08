@@ -39,7 +39,7 @@ const ReadArticle = () => {
 			</Helmet>
 
 			<div className="page-content">
-				<NavBar />
+				<NavBar active="articles" />
 
 				<div className="content-wrapper">
 					<div className="read-article-logo-container">
@@ -51,7 +51,7 @@ const ReadArticle = () => {
 					<div className="read-article-container">
 						<div className="read-article-back">
 							<img
-								src={`${process.env.PUBLIC_URL}/back-button.png`}
+								src={`${process.env.PUBLIC_URL}/back-button.webp`}
 								alt="back"
 								className="read-article-back-button"
 								onClick={() => navigate(`/articles`)}

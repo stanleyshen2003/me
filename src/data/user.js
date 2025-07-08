@@ -3,7 +3,7 @@ const INFO = {
 		title: "Stanley Shen",
 		name: "Stanley Shen",
 		email: "stanley.shen2003@gmail.com",
-		logo: `${process.env.PUBLIC_URL}/logo.png`,
+		logo: `${process.env.PUBLIC_URL}/logo.webp`,
 	},
 
 	socials: {
@@ -48,7 +48,7 @@ const INFO = {
 			title: "Robotics Research",
 			description:
 				"Paper Title: Mitigating Cross-Modal Distraction and Ensuring Geometric Feasibility via Affordance-Guided, Self-Consistent MLLMs for Food Preparation Task Planning",
-			logo: `${process.env.PUBLIC_URL}/robot.png`,
+			logo: `${process.env.PUBLIC_URL}/robot.webp`,
 			linkText: "View Research Page",
 			link: "https://hcis-lab.github.io/Affordance-Guided-Self-Consistent-MLLM/",
 		},
@@ -57,7 +57,7 @@ const INFO = {
 			title: "NYCU CS HWs",
 			description:
 				"This is a collection of my homework assignments during Bachelor in NYCU CS. The assignments are organized by course, and you can find the code for each assignment in the corresponding folder.",
-			logo: `${process.env.PUBLIC_URL}/homework.png`,
+			logo: `${process.env.PUBLIC_URL}/homework.webp`,
 			linkText: "View Assignments",
 			link: "https://github.com/stanleyshen2003/NYCU-CS-HW",
 		},
@@ -66,7 +66,7 @@ const INFO = {
 			title: "Multispeaker Transcription",
 			description:
 				"Meichu Hackathon Project. Won 3rd place in Google group - Android accessibility. We implemented an application that identify the speacker, transcript, and display the result on a cellphone.",
-			logo: `${process.env.PUBLIC_URL}/android.png`,
+			logo: `${process.env.PUBLIC_URL}/android.webp`,
 			linkText: "View Project",
 			link: "https://github.com/stanleyshen2003/multispeaker_transcription",
 		},
@@ -75,7 +75,7 @@ const INFO = {
 			title: "MODDPO",
 			description:
 				"Deep Learning Course Project. Project title: Multi-Objective Denoising Diffusion Policy Optimization. We combine DDPO and PGMORL to finetune diffusion model for multi-objective RL.",
-			logo: `${process.env.PUBLIC_URL}/moddpo.png`,
+			logo: `${process.env.PUBLIC_URL}/moddpo.webp`,
 			linkText: "View Project",
 			link: "https://github.com/KJLdefeated/MODDPO",
 		},
@@ -84,7 +84,7 @@ const INFO = {
 			title: "Lab Requirements Management",
 			description:
 				"Cloud Native Course Project. We built a lab requirements management system using Next.js, Express.js, and MongoDB. The system allows users to manage lab requirements, track progress, and update requests.",
-			logo: `${process.env.PUBLIC_URL}/lab.png`,
+			logo: `${process.env.PUBLIC_URL}/lab.webp`,
 			linkText: "View Project",
 			link: "https://github.com/kobslbj/Lab_Requirements_Management",
 		},
@@ -93,7 +93,7 @@ const INFO = {
 			title: "RL on Quantitative Trading",
 			description:
 				"Introduction to Artificial Intelligence Course Project. We built a training environment, web-scrapped the dataset, and implemented DQN, DDQN, Policy Gradient and Trajectory Transformer on stock trading.",
-			logo: `${process.env.PUBLIC_URL}/trading.png`,
+			logo: `${process.env.PUBLIC_URL}/trading.webp`,
 			linkText: "View Project",
 			link: "https://github.com/stanleyshen2003/Trajectory-Transformer-for-Quatitative-Trading",
 		},
@@ -102,7 +102,7 @@ const INFO = {
 			title: "RL on Car Racing",
 			description:
 				"Selected Topics for RL Course Project. I implemented TD3 / PPO on a first person view car racing game. I designed the reward function for the game and ranked 5th and 9th on two maps in the car racing competition.",
-			logo: `${process.env.PUBLIC_URL}/car.png`,
+			logo: `${process.env.PUBLIC_URL}/car.webp`,
 			linkText: "View Project",
 			link: "https://github.com/stanleyshen2003/Selected-Topics-for-Reinforcement-Learning",
 		},
@@ -111,7 +111,7 @@ const INFO = {
 			title: "Wordle game",
 			description:
 				"This is a wordle game without out daily limit. I web-scrapped the dictionary and implemented the game with p5.js. Almost all the features in the original game were implemented.",
-			logo: `${process.env.PUBLIC_URL}/wordle.png`,
+			logo: `${process.env.PUBLIC_URL}/wordle.webp`,
 			linkText: "View Project",
 			link: "https://github.com/stanleyshen2003/infinite_wordle",
 		},
