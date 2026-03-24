@@ -7,6 +7,7 @@ import NavBar from "../components/common/navBar";
 import Logo from "../components/common/logo";
 
 import INFO from "../data/user";
+import withBase from "../shared/utils/asset";
 
 import "./styles/404.css";
 
@@ -37,7 +38,7 @@ const Notfound = () => {
 								The requested URL "{window.location.href}" was
 								not found on this server.
 							</div>
-							<a href="/" className="not-found-link">
+							<a href={withBase("")} className="not-found-link">
 								Go back to the home page
 							</a>
 						</div>

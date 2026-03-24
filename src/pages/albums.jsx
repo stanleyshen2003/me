@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 
 import NavBar from "../components/common/navBar";
 import Footer from "../components/common/footer";
@@ -7,8 +7,8 @@ import Logo from "../components/common/logo";
 import Album from "../components/albums/album";
 
 import INFO from "../data/user";
-import SEO from "../data/seo";
-import myAlbums from "../data/albums";
+import myAlbums from "../content/albums";
+import { getSeoForPage } from "../config/seo";
 
 import "./styles/albums.css";
 
@@ -17,7 +17,7 @@ const Albums = () => {
 		window.scrollTo(0, 0);
 	}, []);
 
-	const currentSEO = SEO.find((item) => item.page === "albums");
+	const currentSEO = getSeoForPage("albums");
 
 
 	return (
@@ -52,15 +52,15 @@ const Albums = () => {
 						<div className="albums-container">
 							<div className="albums-wrapper">
 								{myAlbums
-									.map((album, index) => (
+									.map((album) => (
 										<div
 											className="albums-album"
-											key={(index + 1).toString()}
+											key={album().slug}
 										>
 											<Album
 												title={album().title}
 												description={album().description}
-												link={"/album/" + (index + 1)}
+												link={`/album/${album().slug}`}
 												representativeImage={album().representative}
 											/>
 										</div>

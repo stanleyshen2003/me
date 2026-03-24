@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 
 import NavBar from "../components/common/navBar";
 import Footer from "../components/common/footer";
@@ -7,7 +7,7 @@ import Logo from "../components/common/logo";
 import AllProjects from "../components/projects/allProjects";
 
 import INFO from "../data/user";
-import SEO from "../data/seo";
+import { getSeoForPage } from "../config/seo";
 
 import "./styles/projects.css";
 
@@ -16,7 +16,7 @@ const Projects = () => {
 		window.scrollTo(0, 0);
 	}, []);
 
-	const currentSEO = SEO.find((item) => item.page === "projects");
+	const currentSEO = getSeoForPage("projects");
 
 	return (
 		<React.Fragment>

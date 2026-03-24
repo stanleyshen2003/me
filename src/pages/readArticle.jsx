@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import { useNavigate, useParams } from "react-router-dom";
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 import styled from "styled-components";
 
 import NavBar from "../components/common/navBar";
@@ -8,7 +8,8 @@ import Footer from "../components/common/footer";
 import Logo from "../components/common/logo";
 
 import INFO from "../data/user";
-import myArticles from "../data/articles";
+import myArticles, { getArticleBySlug } from "../content/articles";
+import withBase from "../shared/utils/asset";
 
 // import "./styles/notion.css"
 import "./styles/readArticle.css";
@@ -20,11 +21,23 @@ const ReadArticle = () => {
 	const navigate = useNavigate();
 	let { slug } = useParams();
 
-	const article = myArticles[slug - 1];
+	const article =
+		getArticleBySlug(slug) ??
+		(Number.isInteger(Number(slug)) ? myArticles[Number(slug) - 1] : null);
 
 	useEffect(() => {
 		window.scrollTo(0, 0);
 	}, [article]);
+
+	useEffect(() => {
+		if (!article) {
+			navigate("/articles");
+		}
+	}, [article, navigate]);
+
+	if (!article) {
+		return null;
+	}
 
 	ArticleStyle = styled.div`
 		${article().style}
@@ -51,7 +64,7 @@ const ReadArticle = () => {
 					<div className="read-article-container">
 						<div className="read-article-back">
 							<img
-								src={`${process.env.PUBLIC_URL}/back-button.webp`}
+								src={withBase("back-button.webp")}
 								alt="back"
 								className="read-article-back-button"
 								onClick={() => navigate(`/articles`)}

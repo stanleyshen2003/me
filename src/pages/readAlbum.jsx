@@ -1,13 +1,14 @@
 import React, { useEffect } from "react";
 import { useNavigate, useParams } from "react-router-dom";
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 
 import NavBar from "../components/common/navBar";
 import Footer from "../components/common/footer";
 import Logo from "../components/common/logo";
 
 import INFO from "../data/user";
-import myAlbums from "../data/albums";
+import myAlbums, { getAlbumBySlug } from "../content/albums";
+import withBase from "../shared/utils/asset";
 
 // import "./styles/notion.css"
 import "./styles/readAlbum.css";
@@ -19,11 +20,23 @@ const ReadAlbum = () => {
 	const navigate = useNavigate();
 	let { slug } = useParams();
 
-	const album = myAlbums[slug - 1];
+	const album =
+		getAlbumBySlug(slug) ??
+		(Number.isInteger(Number(slug)) ? myAlbums[Number(slug) - 1] : null);
 
 	useEffect(() => {
 		window.scrollTo(0, 0);
 	}, [album]);
+
+	useEffect(() => {
+		if (!album) {
+			navigate("/albums");
+		}
+	}, [album, navigate]);
+
+	if (!album) {
+		return null;
+	}
 
 
 	return (
@@ -47,7 +60,7 @@ const ReadAlbum = () => {
 					<div className="read-album-container">
 						<div className="read-album-back">
 							<img
-								src={`${process.env.PUBLIC_URL}/back-button.webp`}
+								src={withBase("back-button.webp")}
 								alt="back"
 								className="read-album-back-button"
 								onClick={() => navigate(`/albums`)}

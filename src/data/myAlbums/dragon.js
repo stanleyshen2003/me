@@ -1,6 +1,6 @@
 
 function dragonPhoto() {
-	const basedir = process.env.PUBLIC_URL || "/me";
+	const basedir = (import.meta.env.BASE_URL || "/").replace(/\/$/, "");
 
 	const allphotos = [
 		{ src: `${basedir}/albums/dragon/1.webp`, width: 1200, height: 2131 },

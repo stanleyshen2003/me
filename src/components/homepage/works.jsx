@@ -2,6 +2,7 @@ import React from "react";
 import { faBriefcase } from "@fortawesome/free-solid-svg-icons";
 
 import Card from "../common/card";
+import withBase from "../../shared/utils/asset";
 
 import "./styles/works.css";
 
@@ -15,7 +16,7 @@ const Works = () => {
 					<div className="works-body">
 						<div className="work">
 							<img
-								src={`${process.env.PUBLIC_URL}/asml.webp`}
+								src={withBase("asml.webp")}
 								alt="asml"
 								className="work-image"
 							/>
@@ -28,7 +29,7 @@ const Works = () => {
 						
 						<div className="work">
 							<img
-								src={`${process.env.PUBLIC_URL}/cloudmile.webp`}
+								src={withBase("cloudmile.webp")}
 								alt="cloudmile"
 								className="work-image"
 							/>

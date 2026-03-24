@@ -1,8 +1,15 @@
-import { render, screen } from '@testing-library/react';
-import App from './App';
+import { render, screen } from "@testing-library/react";
+import { BrowserRouter } from "react-router-dom";
+import { HelmetProvider } from "react-helmet-async";
+import App from "./App";
 
-test('renders learn react link', () => {
-  render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+test("renders main navigation links", () => {
+	render(
+		<HelmetProvider>
+			<BrowserRouter>
+				<App />
+			</BrowserRouter>
+		</HelmetProvider>
+	);
+	expect(screen.getByText(/Projects/i)).toBeInTheDocument();
 });

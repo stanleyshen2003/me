@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 
 import NavBar from "../components/common/navBar";
 import Footer from "../components/common/footer";
@@ -7,7 +7,8 @@ import Logo from "../components/common/logo";
 import Socials from "../components/about/socials";
 
 import INFO from "../data/user";
-import SEO from "../data/seo";
+import { getSeoForPage } from "../config/seo";
+import withBase from "../shared/utils/asset";
 
 import "./styles/about.css";
 
@@ -16,7 +17,7 @@ const About = () => {
 		window.scrollTo(0, 0);
 	}, []);
 
-	const currentSEO = SEO.find((item) => item.page === "about");
+	const currentSEO = getSeoForPage("about");
 
 	return (
 		<React.Fragment>
@@ -54,7 +55,7 @@ const About = () => {
 								<div className="about-image-container">
 									<div className="about-image-wrapper">
 										<img
-											src={`${process.env.PUBLIC_URL}/about.webp`}
+											src={withBase("about.webp")}
 											alt="about"
 											className="about-image"
 										/>

@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 
 import { faMailBulk } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -18,8 +18,9 @@ import Works from "../components/homepage/works";
 import AllProjects from "../components/projects/allProjects";
 
 import INFO from "../data/user";
-import SEO from "../data/seo";
-import myArticles from "../data/articles";
+import myArticles from "../content/articles";
+import { getSeoForPage } from "../config/seo";
+import withBase from "../shared/utils/asset";
 
 import "./styles/homepage.css";
 
@@ -56,7 +57,7 @@ const Homepage = () => {
 		return () => window.removeEventListener("scroll", handleScroll);
 	}, [logoSize, oldLogoSize]);
 
-	const currentSEO = SEO.find((item) => item.page === "home");
+	const currentSEO = getSeoForPage("home");
 
 	const logoStyle = {
 		display: "flex",
@@ -105,7 +106,7 @@ const Homepage = () => {
 								<div className="homepage-image-container">
 									<div className="homepage-image-wrapper">
 										<img
-											src={`${process.env.PUBLIC_URL}/homepage.webp`}
+											src={withBase("homepage.webp")}
 											alt="about"
 											className="homepage-image"
 										/>
@@ -126,13 +127,13 @@ const Homepage = () => {
 								/>
 							</a> */}
 							<a
-								href={`${process.env.PUBLIC_URL}/CV_20250619.pdf`}
+								href={withBase("CV_20260203.pdf")}
 								target="_blank"
 								rel="noreferrer"
 								download={`stanleyCV.pdf`}
 							>
 								<img
-									src={`${process.env.PUBLIC_URL}/cv.svg`}
+									src={withBase("cv.svg")}
 									alt="cv"
 									style={{width:"24px", height:"24px"}}
 									className="svg-inline--fa fa-envelopes-bulk homepage-social-icon"
@@ -187,17 +188,16 @@ const Homepage = () => {
 
 						<div className="homepage-after-title">
 							<div className="homepage-articles">
-								{myArticles.map((article, index) => (
+								{myArticles.map((article) => (
 									<div
 										className="homepage-article"
-										key={(index + 1).toString()}
+										key={article().slug}
 									>
 										<Article
-											key={(index + 1).toString()}
 											date={article().date}
 											title={article().title}
 											description={article().description}
-											link={"/article/" + (index + 1)}
+											link={`/article/${article().slug}`}
 										/>
 									</div>
 								))}

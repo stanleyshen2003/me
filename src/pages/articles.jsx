@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 
 import NavBar from "../components/common/navBar";
 import Footer from "../components/common/footer";
@@ -7,8 +7,8 @@ import Logo from "../components/common/logo";
 import Article from "../components/articles/article";
 
 import INFO from "../data/user";
-import SEO from "../data/seo";
-import myArticles from "../data/articles";
+import myArticles from "../content/articles";
+import { getSeoForPage } from "../config/seo";
 
 import "./styles/articles.css";
 
@@ -17,7 +17,7 @@ const Articles = () => {
 		window.scrollTo(0, 0);
 	}, []);
 
-	const currentSEO = SEO.find((item) => item.page === "articles");
+	const currentSEO = getSeoForPage("articles");
 	const [selectedCategory, setSelectedCategory] = useState("All");
 
 	const categories = ["All", "Family", "School", "Work", "Others"];
@@ -59,7 +59,7 @@ const Articles = () => {
 							{INFO.articles.description}
 						</div>
 
-						<div class="category-row">
+						<div className="category-row">
 							{categories.map((category) => (
 								<button
 									key={category}
@@ -79,22 +79,17 @@ const Articles = () => {
 										selectedCategory === "All" || article().type === selectedCategory
 									)
 									.reverse()
-									.map((article, index) => {
-        								// Calculate original index before reverse
-										const originalIndex = myArticles.filter((art) =>
-											selectedCategory === "All" || art().type === selectedCategory
-										).length - index - 1;
-										
+									.map((article) => {
 										return (
 											<div
 												className="articles-article"
-												key={(originalIndex + 1).toString()}
+												key={article().slug}
 											>
 												<Article
 													date={article().date}
 													title={article().title}
 													description={article().description}
-													link={"/article/" + (originalIndex + 1)}
+													link={`/article/${article().slug}`}
 												/>
 											</div>
 										);
